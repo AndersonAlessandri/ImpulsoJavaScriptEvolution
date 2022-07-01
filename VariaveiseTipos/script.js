@@ -4,16 +4,14 @@
 
 //Var e Let
 
-var a = 1;
-var b = 2;
+// ls
 
-if (a === 1){
-    var a = 11; //the scope global
-    let b = 22; //the scope is inside the if-block
+var firstName = "João";
+var lastName = "Souza";
 
-    console.log(a); //11
-    console.log(b); //22
-}
+ if (firstName === 'João'){
+     var firstName = "Pedro"; // var funciona global
+     let lastName = "Silva"; //Não está lendo o let, pois só funciona em escopo de bloco
+ }
 
-console.log(a); //11
-console.log(b); //2
+ console.log(firstName, lastName);
