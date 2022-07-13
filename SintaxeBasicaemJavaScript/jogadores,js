@@ -1,0 +1,21 @@
+const jogadores = [
+    'Dorival Júnior',
+    'Hugo',
+    'Rafinha',
+    'David Luiz',
+    'Rodrigo Caio',
+    'Felipe Luiz',
+    'William Arão',
+    'Everton Ribeiro',
+    'Arrascaeta',
+    'Gabigol',
+    'Andreas Pereira',
+    'Pedro']
+
+    let index = 0;
+    
+    while (index < jogadores.length){
+        console.log(index, jogadores[index]);
+        index++;
+    }
+jogadores.length;

@@ -1,7 +1,3 @@
-// var numberOne = 1;
-// console.log(numberOne + 1);
-
-
 //Var e Let
 
 // ls
